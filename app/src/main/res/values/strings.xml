@@ -1,3 +1,16 @@
 <resources>
-    <string name="app_name">TrabFinal</string>
+    <string name="app_name">Swapping Books</string>
+    <string name="title">Title</string>
+    <string name="subtitle">Subtitle</string>
+    <string name="author">Author</string>
+    <string name="publiCompany">Publishing Company</string>
+    <string name="edition">Edition</string>
+    <string name="categoy">Category</string>
+    <string name="description">Description</string>
+    <string name="infoRegister">Nice! Another book for the universe of exchange and giving. So come on, enter the ISBN
+        number of your book, that number is usually next to the barcode printed on the back of your book.
+    </string>
+    <string name="infoTitleRegister">Registering a Book</string>
+    <string name="isbn">ISBN</string>
+    <string name="submit">Submit</string>
 </resources>

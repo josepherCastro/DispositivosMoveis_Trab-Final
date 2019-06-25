@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Trocando Livros</string>
+    <string name="title">Título</string>
+    <string name="subtitle">Subtítulo</string>
+    <string name="author">Autor</string>
+    <string name="publiCompany">Editora</string>
+    <string name="edition">Edição</string>
+    <string name="categoy">Categoria</string>
+    <string name="description">Descrição</string>
+    <string name="infoRegister">Legal! Mais um livro pro universo da troca e da doação. Então vamos lá, insira o número
+        ISBN do seu livro, esse número se encontra geralmente junto ao codigo de barras impresso na capa trazeira do seu
+        livro.
+    </string>
+    <string name="infoTitleRegister">Cadastrando um Livro</string>
+    <string name="isbn">ISBN</string>
+    <string name="submit">Enviar</string>
+</resources>
