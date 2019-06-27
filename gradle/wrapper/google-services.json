@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "308693756679",
+    "firebase_url": "https://troca-livros-ifpr.firebaseio.com",
+    "project_id": "troca-livros-ifpr",
+    "storage_bucket": "troca-livros-ifpr.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:308693756679:android:6262ffec5a2e95f4",
+        "android_client_info": {
+          "package_name": "ifpr.tads.josepher.trabfinal"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "308693756679-bacde4lijpmsl92oud4km0q5kvqq9cm8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAwJlaw-WgMOmYnk9PVF4ZDg3pNRT7kgSc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "308693756679-bacde4lijpmsl92oud4km0q5kvqq9cm8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
