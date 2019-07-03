@@ -1,4 +1,4 @@
-package ifpr.tads.josepher.trabfinal.ui.adapters
+package ifpr.tads.josepher.trabfinal.ui.adapter
 
 import android.view.LayoutInflater
 import android.view.View

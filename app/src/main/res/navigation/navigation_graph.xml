@@ -1,6 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <navigation xmlns:android="http://schemas.android.com/apk/res/android"
             xmlns:app="http://schemas.android.com/apk/res-auto"
-            android:id="@+id/navigation_graph">
+            xmlns:tools="http://schemas.android.com/tools" android:id="@+id/navigation_graph"
+            app:startDestination="@id/booksAvailable">
 
+    <fragment android:id="@+id/booksAvailable" android:name="ifpr.tads.josepher.trabfinal.ui.BooksAvailable"
+              android:label="fragment_books_available" tools:layout="@layout/fragment_books_available">
+        <action android:id="@+id/myBookcase" app:destination="@id/myExchanges"/>
+        <action android:id="@+id/myExchanges" app:destination="@id/myBookcase"/>
+    </fragment>
+    <fragment android:id="@+id/myBookcase" android:name="ifpr.tads.josepher.trabfinal.MyBookcase"
+              android:label="fragment_my_bookcase" tools:layout="@layout/fragment_my_bookcase"/>
+    <fragment android:id="@+id/myExchanges" android:name="ifpr.tads.josepher.trabfinal.MyExchanges"
+              android:label="fragment_my_exchanges" tools:layout="@layout/fragment_my_exchanges"/>
 </navigation>

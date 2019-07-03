@@ -1,4 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
 
+    <item android:id="@+id/booksAvailable" android:title="Books Available"
+          android:icon="@android:drawable/arrow_down_float"/>
+    <item android:title="My Bookcase " android:id="@+id/myBookcase"
+          android:icon="@android:drawable/ic_menu_sort_by_size"/>
+    <item android:title="My Exchanges" android:id="@+id/myExchanges"
+          android:icon="@android:drawable/ic_menu_myplaces"/>
 </menu>
