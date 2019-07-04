@@ -1,7 +1,6 @@
 package ifpr.tads.josepher.trabfinal.services
 
-import ifpr.tads.josepher.trabfinal.entities.Book
-import ifpr.tads.josepher.trabfinal.entities.Volume
+import ifpr.tads.josepher.trabfinal.entities.volume.Volume
 import retrofit2.Call
 import retrofit2.http.GET
 import retrofit2.http.Headers

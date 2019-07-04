@@ -8,14 +8,14 @@ import ifpr.tads.josepher.trabfinal.R
 import ifpr.tads.josepher.trabfinal.entities.Book
 import kotlinx.android.synthetic.main.livro_card.view.*
 
-class BooksAdapter(var books: Book): RecyclerView.Adapter<BooksAdapter.BookViewHolder>() {
+class BookRegisterAdapter (var books: Book): RecyclerView.Adapter<BookRegisterAdapter.BookViewHolder>() {
     override fun getItemCount() = 1
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int) =
         BookViewHolder(
             LayoutInflater
                 .from(parent.context)
-                .inflate(R.layout.livro_card, parent, false)
+                .inflate(R.layout.cadastro_card, parent, false)
         )
 
 

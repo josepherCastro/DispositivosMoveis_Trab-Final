@@ -9,8 +9,8 @@
         <action android:id="@+id/myBookcase" app:destination="@id/myExchanges"/>
         <action android:id="@+id/myExchanges" app:destination="@id/myBookcase"/>
     </fragment>
-    <fragment android:id="@+id/myBookcase" android:name="ifpr.tads.josepher.trabfinal.MyBookcase"
+    <fragment android:id="@+id/myBookcase" android:name="ifpr.tads.josepher.trabfinal.ui.MyBookcase"
               android:label="fragment_my_bookcase" tools:layout="@layout/fragment_my_bookcase"/>
-    <fragment android:id="@+id/myExchanges" android:name="ifpr.tads.josepher.trabfinal.MyExchanges"
+    <fragment android:id="@+id/myExchanges" android:name="ifpr.tads.josepher.trabfinal.ui.MyExchanges"
               android:label="fragment_my_exchanges" tools:layout="@layout/fragment_my_exchanges"/>
 </navigation>
